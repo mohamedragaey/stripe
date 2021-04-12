@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  font-size: $font-size-base-custom;
+  text-align: left;
+  background: $gray-200;
+  color: $text-color;
+}
+
+.main {
+  padding: 16px;
+}
+
+a {
+  font-weight: normal;
+  @include transition-animation();
+
+  &:hover, &:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+button, .btn {
+  outline: 0;
+  font-weight: 600;
+  @include transition-animation();
+
+  &:focus,
+  &:active:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

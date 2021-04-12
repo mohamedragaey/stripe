@@ -1,0 +1,49 @@
+{
+  "name": "stripe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Market Research Repository",
+  "author": "Mohamed Ragaey mohamed.ragaey@toptal.com",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path .gitignore --fix .",
+    "start": "NODE_ENV=development webpack --mode development --watch",
+    "build": "NODE_ENV=production webpack --mode production"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^5.2.1",
+    "cssnano": "^4.0.5",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
+    "exports-loader": "^2.0.0",
+    "file-loader": "^6.2.0",
+    "mathsass": "^0.11.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.14.1",
+    "postcss": "^6.0.16",
+    "postcss-loader": "^2.0.10",
+    "resolve-url-loader": "^3.1.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-fix-style-only-entries": "^0.6.1",
+    "webpack-manifest-plugin": "^3.1.1",
+    "webpack-merge": "^5.7.3"
+  }
+}

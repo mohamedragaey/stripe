@@ -1,0 +1,20 @@
+$headings-font-weight: 700;
+$primary-font: 'Source Sans Pro';
+$font-family-sans-serif: $primary-font;
+$headings-font-family: $primary-font;
+$btn-font-family: $primary-font;
+
+$font-size-base-custom: 16px;
+$h1-font-size: $font-size-base-custom * 1.87 !default; // 30px
+$h2-font-size: $font-size-base-custom * 1.62 !default; // 26px
+$h3-font-size: $font-size-base-custom * 1.37 !default; // 22px
+$h4-font-size: $font-size-base-custom * 1.25 !default; // 20px
+$h5-font-size: $font-size-base-custom * 1.12 !default; // 18px
+$h6-font-size: $font-size-base-custom !default; // 16px
+
+$black: #000;
+$white: #FFF;
+$header-bg: #182433;
+$text-color: #424770;
+$sub-header-color: #3ECF8E;
+$sub-header-bg: #425466;
