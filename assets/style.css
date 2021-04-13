@@ -4788,7 +4788,8 @@ img {
   background-color: #425466;
   padding: 8px 16px 12px;
   font-size: 21px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  text-align: center; }
   .sub-title a {
     display: flex;
     justify-content: space-between;
@@ -4798,6 +4799,8 @@ img {
 
 .block-body {
   padding: 12px; }
+  .block-body li {
+    margin-bottom: 8px; }
 
 .accordion-title {
   display: flex;
@@ -4811,7 +4814,9 @@ img {
   padding-bottom: 8px; }
 
 .card-body a {
-  color: #424770; }
+  color: #424770;
+  display: flex;
+  justify-content: space-between; }
   .card-body a:hover {
     opacity: 0.75; }
 
