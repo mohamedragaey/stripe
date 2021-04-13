@@ -4799,3 +4799,19 @@ img {
 .block-body {
   padding: 12px; }
 
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #424770; }
+  .accordion-title:hover, .accordion-title:focus {
+    text-decoration: none; }
+
+.card-body li {
+  padding-bottom: 8px; }
+
+.card-body a {
+  color: #424770; }
+  .card-body a:hover {
+    opacity: 0.75; }
+

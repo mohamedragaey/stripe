@@ -34,3 +34,28 @@
 .block-body {
   padding: 12px
 }
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: $text-color;
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.card-body {
+  li {
+    padding-bottom: 8px;
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
