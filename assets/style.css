@@ -4787,13 +4787,12 @@ img {
   color: #3ECF8E;
   background-color: #425466;
   padding: 8px 16px 12px;
-  font-size: 21px;
   border-radius: 4px;
   text-align: center; }
   .sub-title a {
     display: flex;
     justify-content: space-between;
-    color: #FFF; }
+    color: #3ECF8E; }
     .sub-title a:hover, .sub-title a:focus {
       opacity: 0.75; }
 
@@ -4817,6 +4816,8 @@ img {
   color: #424770;
   display: flex;
   justify-content: space-between; }
+  .card-body a i {
+    color: #3ECF8E; }
   .card-body a:hover {
     opacity: 0.75; }
 
