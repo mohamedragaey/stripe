@@ -1,28 +1,14 @@
-/**
- * @file
- * The primary JS file for WFP theme.
- */
+/* global $ */
 
-/* eslint-disable space-before-function-paren */
-/* eslint-disable brace-style */
-/* eslint no-multi-str: 2 */
-/* global jQuery */
-(function ($) {
-  // const $language = (drupalSettings) ? drupalSettings.path.currentLanguage : 'en'
-  // const $rtl = ($language === 'ar')
-  $(document).ready(function () {
-    $('.search-btn').on('click', function () {
-      $('.search-box').toggleClass('full')
-      $(this).toggleClass('open')
-    })
-    $(window).scroll(function () {
-      // When scroll change size of header.
-      if ($(window).scrollTop() > 0) {
-        $('.main-header').addClass('shrink-header')
+$(document).ready(function () {
+  $('.custom-select').on('click', function (e) {
+    let content = $(this).parent('.block-body').find('.custom-select-content')
+    content.each(function () {
+      if (e.target.value === $(this).attr('data-dropdown')) {
+        $(this).removeClass('hidden')
       } else {
-        $('.main-header').removeClass('shrink-header')
+        $(this).addClass('hidden')
       }
     })
   })
-}(jQuery))
-
+})
