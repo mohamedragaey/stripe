@@ -4791,7 +4791,7 @@ img {
   text-align: center; }
   .sub-title a {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: #3ECF8E; }
     .sub-title a:hover, .sub-title a:focus {
       opacity: 0.75; }
