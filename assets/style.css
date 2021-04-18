@@ -4924,7 +4924,8 @@ body {
   color: #424770; }
 
 .main {
-  padding: 16px; }
+  padding: 16px;
+  width: 100%; }
 
 a {
   font-weight: normal;
