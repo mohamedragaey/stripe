@@ -6,6 +6,7 @@ $(document).ready(function () {
     e.preventDefault()
     let content = $(this).parent('.block-body').find('.custom-select-content')
     content.each(function () {
+      $(this).blur()
       if (e.target.value === $(this).attr('data-dropdown')) {
         $(this).removeClass('hidden')
       } else {
