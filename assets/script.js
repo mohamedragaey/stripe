@@ -161,7 +161,7 @@ eval("\n\n//require('bootstrap/dist/js/bootstrap.bundle.js') // if you need all 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function($) {\n\n/* global $ */\n\n$(document).ready(function () {\n  $('.custom-select').on('click', function (e) {\n    var content = $(this).parent('.block-body').find('.custom-select-content');\n    content.each(function () {\n      if (e.target.value === $(this).attr('data-dropdown')) {\n        $(this).removeClass('hidden');\n      } else {\n        $(this).addClass('hidden');\n      }\n    });\n  });\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/js/partials/custom.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {\n\n/* global $ */\n\n$(document).ready(function () {\n  $('.custom-select').on('click', function (e) {\n    e.stopPropagation();\n    e.preventDefault();\n    var content = $(this).parent('.block-body').find('.custom-select-content');\n    content.each(function () {\n      if (e.target.value === $(this).attr('data-dropdown')) {\n        $(this).removeClass('hidden');\n      } else {\n        $(this).addClass('hidden');\n      }\n    });\n  });\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/js/partials/custom.js?");
 
 /***/ }),
 
